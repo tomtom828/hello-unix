@@ -6,7 +6,7 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 0. Open Terminal
 1. Enter the `git` command
 2. Prompt will appear to install git
-3. If not, refer to (https://git-scm.com/)[https://git-scm.com/].
+3. If not, refer to [https://git-scm.com/](https://git-scm.com/).
 4. Set up your github credentials using:
 	`git config --global user.name "Your Name && git config --global user.email "you@example.com"`
 
@@ -19,14 +19,14 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 3. Create a new SSH key using `ssh-keygen -t rsa -b 4096 -C "<YOUR EMAIL ADDRESS TIED TO GITHUB>"`
 4. Ensure the SSH agent is enabled using `eval "$(ssh-agent -s)"`
 5. Add your SSH key using `ssh-add ~/.ssh/id_rsa`
-6. Now link the SSH key to github at (https://github.com/settings/keys)[https://github.com/settings/keys].
+6. Now link the SSH key to github at [https://github.com/settings/keys](https://github.com/settings/keys).
 7. In terminal use `pbcopy < ~/.ssh/id_rsa.pub` to get your public key
 8. Paste that into Github using the link from step 6.
 
 
 ### NodeJS
 0. Open Terminal
-1. Navigate to (https://nodejs.org/en)[https://nodejs.org/en]
+1. Navigate to [https://nodejs.org/en](https://nodejs.org/en)
 2. Click to download the latest stable (LTS version) of NodeJS
 3. After installation, run `node` in Terminal to test if it worked
 4. Press `Ctrl C` to exit
@@ -34,7 +34,7 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 
 ### Homebrew
 0. Open Terminal
-1. Navigate to (http://brew.sh)[http://brew.sh].
+1. Navigate to [http://brew.sh](http://brew.sh).
 2. Copy the command on their website into Terminal and run it
 3. Press the Enter key to confirm the download to the default folder
 4. Enter the `brew` command after the download to confirm it worked
@@ -49,7 +49,7 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 
 
 ### MySQL Workbench
-1. Navigate to (http://dev.mysql.com/downloads/workbench)[http://dev.mysql.com/downloads/workbench]
+1. Navigate to [http://dev.mysql.com/downloads/workbench](http://dev.mysql.com/downloads/workbench)
 2. Click to download MySQL Workbench
 3. After installation, open the Workbench and click "New Connection" to make a Localhost connection
 
@@ -63,13 +63,13 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 
 
 ### RoboMongo
-1. Navigate to (https://robomongo.org/download)[https://robomongo.org/download]
+1. Navigate to [https://robomongo.org/download](https://robomongo.org/download)
 2. Click to download RoboMongo
 3. After installation, open RoboMongo and click "New Connection" to make a Localhost connection
 
 
 ### Sublime Text 3
-1. Navigate to (https://www.sublimetext.com/3)[https://www.sublimetext.com/3]
+1. Navigate to [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 2. Click to download (no purchase needed)
 
 
