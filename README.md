@@ -7,6 +7,9 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 1. Enter the `git` command
 2. Prompt will appear to install git
 3. If not, refer to (https://git-scm.com/)[https://git-scm.com/].
+4. Set up your github credentials using:
+	`git config --global user.name "Your Name && git config --global user.email "you@example.com"`
+
 
 
 ### ssh
