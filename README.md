@@ -73,10 +73,10 @@ Notes to self on how to set up a developer space for myself in MacOS.
 2. Click to download (no purchase needed)
 3. Install the brogrammer syntax highlighting package. In the menu bar click Sublime Text > Preferences > Package Control > Install Package
 4. Also install HandlebarsJS and Babel syntax highlighting using the package installer from Step 4
-5. Set up other preferences. In the Menu Bar, click Sublime Text > Preferences > Settings
-  Then, adjust the following properties:
+5. Set up other preferences. In the Menu Bar, click Sublime Text > Preferences > Settings. Then, adjust the following properties:
 
-  ```
+```
+{
   "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
   "font_size": 10,
   "ignored_packages":
@@ -89,4 +89,7 @@ Notes to self on how to set up a developer space for myself in MacOS.
 }
 ```
 
+### Install Meteor
+1. Navigate to [https://www.meteor.com/install](https://www.meteor.com/install)
+2. Use the `curl` command in Terminal from their website.
 
