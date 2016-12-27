@@ -1,7 +1,9 @@
 # Hello UNIX
 Notes to self on how to set up a developer space for myself in MacOS.
-This is for setting up a fulstack dev environment for NodeJS, Mongo, and MySQL.
-Apps are deployed to Heroku.
+
+This is for setting up a fullstack dev environment for NodeJS, Mongo, and MySQL.
+
+Applications are deployed to Heroku.
 
 
 ### git
@@ -91,6 +93,7 @@ Apps are deployed to Heroku.
 }
 ```
 
+
 ### Heroku CLI
 1. Navigate to [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up) to review their docs for setting up with NodeJS.
 2. Click to install the Heroku CLI for OSX.
@@ -98,6 +101,9 @@ Apps are deployed to Heroku.
 4. Finally, enter your Heroku account information and boom. Ready.
 5. Refer to their `Prepare the app` and `Deploy the app` docs for deployment.
 
+
+
+## Optional (for Mobile Development)
 
 ### Install Meteor
 1. Navigate to [https://www.meteor.com/install](https://www.meteor.com/install)
