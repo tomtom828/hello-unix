@@ -1,5 +1,5 @@
 # Hello UNIX
-Notes to Self on How to Set Up a developer space for myself in MacOS.
+Notes to self on how to set up a developer space for myself in MacOS.
 
 
 ### git
@@ -71,6 +71,22 @@ Notes to Self on How to Set Up a developer space for myself in MacOS.
 ### Sublime Text 3
 1. Navigate to [https://www.sublimetext.com/3](https://www.sublimetext.com/3)
 2. Click to download (no purchase needed)
+3. Install the brogrammer syntax highlighting package. In the menu bar click Sublime Text > Preferences > Package Control > Install Package
+4. Also install HandlebarsJS and Babel syntax highlighting using the package installer from Step 4
+5. Set up other preferences. In the Menu Bar, click Sublime Text > Preferences > Settings
+  Then, adjust the following properties:
 
+  ```
+  "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme",
+  "font_size": 10,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "scroll_past_end": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true
+}
+```
 
 
