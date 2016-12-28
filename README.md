@@ -103,9 +103,13 @@ Applications are deployed to Heroku.
 
 
 
-## Optional (for Mobile Development)
+## Optional (Mobile Development Framework)
 
 ### Install Meteor
 1. Navigate to [https://www.meteor.com/install](https://www.meteor.com/install)
 2. Use the `curl` command in Terminal from their website.
 
+
+### Install Andriod Studio (for Andriod App Development)
+1. Navigate to [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
+2. Click to install
