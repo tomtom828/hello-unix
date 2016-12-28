@@ -110,6 +110,9 @@ Applications are deployed to Heroku.
 2. Use the `curl` command in Terminal from their website.
 
 
-### Install Andriod Studio (for Andriod App Development)
+### Install Android Studio (for Android App Development)
 1. Navigate to [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 2. Click to install
+
+### Install Xcode (for iOS App Development)
+1. Install through the Mac App Store
