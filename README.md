@@ -103,9 +103,9 @@ Applications are deployed to Heroku.
 
 
 
-## Optional (Mobile Development Framework)
+## Optional (For Mobile Development)
 
-### Install Meteor
+### Install Meteor (Web/Mobile Development Framework)
 1. Navigate to [https://www.meteor.com/install](https://www.meteor.com/install)
 2. Use the `curl` command in Terminal from their website.
 
