@@ -35,8 +35,10 @@ Applications are deployed to Heroku.
 3. After installation, run `node` in Terminal to test if it worked
 4. Press `Ctrl C` to exit
 
+
 ### Install Global Node Packages
-These are some npm packages I use globally via `npm install -g`
+These are some npm packages I use globally via `sudo npm install -g`
+
   - chai
   - firebase-tools
   - karma-cli
@@ -46,6 +48,7 @@ These are some npm packages I use globally via `npm install -g`
   - nodemon
   - sequelize-cli
   - webpack
+
 As an aside, you can view your global packages using `npm list -g --depth 0`
 
 
