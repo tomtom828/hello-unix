@@ -94,6 +94,12 @@ Applications are deployed to Heroku.
 ```
 
 
+### Atom (Instead of Sublime Text)
+1. Navigate to [https://atom.io/](https://atom.io/)
+2. Click to download (it's free)
+3. Customization to be continued...
+
+
 ### Heroku CLI
 1. Navigate to [Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up) to review their docs for setting up with NodeJS.
 2. Click to install the Heroku CLI for OSX.
