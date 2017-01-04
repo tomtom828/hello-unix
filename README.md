@@ -138,3 +138,7 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 
 ### Install Xcode (for iOS App Development)
 1. Install through the Mac App Store
+
+
+### React Native (follow these steps after downloading xCode)
+1. In Terminal, run `sudo npm install –g react-native-cli`
