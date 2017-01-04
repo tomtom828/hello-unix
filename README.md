@@ -136,9 +136,17 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 1. Navigate to [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 2. Click to install
 
+### Install Java Development Kit
+1. Navigate to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the OSX version
+2. Then open Terminal and input `brew install android-sdk` (uses Homebrew)
+3. After the download, input `andriod` into Terminal to open the Andriod SDK
+4. Refer to the [Facebook Docs](http://facebook.github.io/react-native/docs/getting-started.html) to determine the SDK Packages to install
+5. ... to be continued ...
+
 ### Install Xcode (for iOS App Development)
 1. Install through the Mac App Store
 
 
-### React Native (follow these steps after downloading xCode)
-1. In Terminal, run `sudo npm install –g react-native-cli`
+### React Native
+1. Note you will follow the next steps only after downloading Xcode for iOS development and/or downloading Andriod with Java for Andriod development
+2. In Terminal, run `sudo npm install –g react-native-cli`
