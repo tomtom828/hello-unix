@@ -150,3 +150,12 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 ### React Native
 1. Note you will follow the next steps only after downloading Xcode for iOS development and/or downloading Andriod with Java for Andriod development
 2. In Terminal, run `sudo npm install –g react-native-cli`
+
+
+
+## Optional (Just Because)
+
+### Install Wordpress
+1. Navigate to [https://serverpress.com](https://serverpress.com)
+2. Click on the Free Download
+
