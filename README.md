@@ -135,13 +135,13 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 ### Install Android Studio (for Android App Development)
 1. Navigate to [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 2. Click to install
+3. Refer to the [React Native Docs](https://facebook.github.io/react-native/docs/getting-started.html) to set up Andriod to work with React Native.
 
 ### Install Java Development Kit
 1. Navigate to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the OSX version
 2. Then open Terminal and input `brew install android-sdk` (uses Homebrew)
 3. After the download, input `andriod` into Terminal to open the Andriod SDK
 4. Refer to the [Facebook Docs](http://facebook.github.io/react-native/docs/getting-started.html) to determine the SDK Packages to install
-5. ... to be continued ...
 
 ### Install Xcode (for iOS App Development)
 1. Install through the Mac App Store
@@ -153,7 +153,7 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 3. Also in Terminal, run `sudo npm install -g rninit`
 
 
-## Optional (Just Because)
+## Very Optional (Just Because)
 
 ### Install Wordpress
 1. Navigate to [https://serverpress.com](https://serverpress.com)
