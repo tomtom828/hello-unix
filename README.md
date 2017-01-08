@@ -142,17 +142,13 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 2. Click to install
 3. Refer to the [React Native Docs](https://facebook.github.io/react-native/docs/getting-started.html) to set up Andriod to work with React Native.
 4. Set the environmental variable in Terminal by typing `nano ~/.bash_profile` and then pasting in...
-
 ```
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 ```
-
 5. Then, save your changes by typing `ctrl+o`. Hit `return` to save. Then exit Nano by typing `ctrl+x`.
-6. Activate your changes in Terminal with `source .bash_profile`.
-
-Refer to [this](https://natelandau.com/my-mac-osx-bash_profile/), [this](http://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac), and [this](http://stackoverflow.com/questions/19986214/setting-android-home-enviromental-variable-on-mac-os-x) for more info.
+6. Activate your changes in Terminal with `source .bash_profile`. Refer to [this](https://natelandau.com/my-mac-osx-bash_profile/), [this](http://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac), and [this](http://stackoverflow.com/questions/19986214/setting-android-home-enviromental-variable-on-mac-os-x) for more info.
 
 7. Fire up the Andriod Emulator with `andriod avd` in Terminal.
 
