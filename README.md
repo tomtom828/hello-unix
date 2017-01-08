@@ -154,6 +154,8 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 Refer to (this)[https://natelandau.com/my-mac-osx-bash_profile/], (this)[http://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac], and (this)[http://stackoverflow.com/questions/19986214/setting-android-home-enviromental-variable-on-mac-os-x] for more info.
 
+7. Fire up the Andriod Emulator with `andriod avd` in Terminal.
+
 ### Install Java Development Kit
 1. Navigate to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the OSX version
 2. Then open Terminal and input `brew install android-sdk` (uses Homebrew)
