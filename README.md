@@ -16,6 +16,11 @@ Applications are deployed to Heroku.
 
 
 
+### Unhide the /Library Folder
+0. Run `chflags nohidden ~/Library/` in Terminal
+
+
+
 ### ssh
 0. Open Terminal
 1. Check for any existing SSH keys with `ls -la ~/.ssh`
@@ -136,6 +141,18 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 1. Navigate to [https://developer.android.com/studio/install.html](https://developer.android.com/studio/install.html)
 2. Click to install
 3. Refer to the [React Native Docs](https://facebook.github.io/react-native/docs/getting-started.html) to set up Andriod to work with React Native.
+4. Set the environmental variable in Terminal by typing `nano ~/.bash_profile` and then pasting in...
+
+```
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+```
+
+5. Then, save your changes by typing `ctrl+o`. Hit `return` to save. Then exit Nano by typing `ctrl+x`.
+6. Activate your changes in Terminal with `source .bash_profile`.
+
+Refer to (this)[https://natelandau.com/my-mac-osx-bash_profile/], (this)[http://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac], and (this)[http://stackoverflow.com/questions/19986214/setting-android-home-enviromental-variable-on-mac-os-x] for more info.
 
 ### Install Java Development Kit
 1. Navigate to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the OSX version
