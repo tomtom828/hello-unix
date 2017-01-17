@@ -118,7 +118,7 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 ### Atom (Instead of Sublime Text)
 1. Navigate to [https://atom.io/](https://atom.io/)
 2. Click to download (it's free)
-3. Customization to be continued...
+3. Customization to be continued.
 
 
 ### Heroku CLI
