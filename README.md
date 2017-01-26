@@ -152,6 +152,11 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 7. Fire up the Andriod Emulator with `andriod avd` in Terminal.
 
+### Install Android File Transfer
+1. Navigate to [https://www.android.com/filetransfer/](https://www.android.com/filetransfer/)
+2. Follow download instructions
+3. Use this to copy apps to your device directly
+
 ### Install Java Development Kit
 1. Navigate to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the OSX version
 2. Then open Terminal and input `brew install android-sdk` (uses Homebrew)
