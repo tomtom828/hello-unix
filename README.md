@@ -2,6 +2,7 @@
 Notes to self on how to set up a developer space for myself in MacOS.
 
 This is for setting up a fullstack dev environment for NodeJS, Mongo, and MySQL.
+Python coming soon!
 
 Applications are deployed to Heroku.
 
@@ -63,6 +64,24 @@ As an aside, you can view your global packages using `npm list -g --depth 0`
 2. Copy the command on their website into Terminal and run it
 3. Press the Enter key to confirm the download to the default folder
 4. Enter the `brew` command after the download to confirm it worked
+
+
+### Python
+Note that Python 2 is usually installed in Mac OS out of the box
+
+0. Open Terminal
+1. Check for Python version by typing `python`
+
+If you have Python 2, and want to keep it that way that's cool
+
+0. Note that you may also want to intall the pip package manager for Python 2 using `sudo easy_install pip`
+1. You can test if it installed and get the version with `pip -V`
+
+If you want Python 3, then you can install that and pip3 in one shot 
+
+0. Assuming Homebrew is installed, enter `brew install python3` to get Python 3
+1. You can test if Python 3 installed and get the version with `python3 -V`
+2. You can test if pip installed and get the version with `pip3 -V`
 
 
 ### MySQL
