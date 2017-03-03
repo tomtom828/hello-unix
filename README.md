@@ -84,6 +84,22 @@ If you want Python 3, then you can install that and pip3 in one shot
 2. You can test if pip installed and get the version with `pip3 -V`
 
 
+### Anaconda (for data science in Python)
+You can also use [Canopy](https://www.enthought.com/products/canopy/) instead of [Anaconda](https://www.continuum.io/downloads). But I picked Anaconda so I can pick either Python 2 or 3.
+
+Note! If you did all the installations I mentioned in this repo, then you will have 3 Python versions on your Mac. One shy of [this guy](http://stackoverflow.com/questions/33541876/os-x-deciding-between-anaconda-and-homebrew-python-environments). This shouldn't be an issue but it's good to be aware of it. I plan on using the Mac and Homebrew verisons for web development and the Anaconda version for Data Science.
+
+Anyway, install Anaconda by doing the following:
+
+0. On the [Anaconda](https://www.continuum.io/downloads) website choose either the Python 2 or Python 3 version.
+1. I picked the Graphical Installer (green button) for Python 3.6.
+2. Follow along with the installer's instructions.
+3. Type `conda` in your command line to ensure the download was successful.
+4. You can look into this [GitHub Repo](https://github.com/brandon-rhodes/pycon-pandas-tutorial) to mess with the Pandas library in Python.
+
+Note that [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) should come with Anaconda. If not, use their instructions to download it. Using  `pip` or `pip3` is the easiest download. Type `jupyter` in the command line to see if it was installed.
+
+
 ### MySQL
 0. Open Terminal
 1. Use Homebrew to install MySQL using `sudo brew install mysql` command in Terminal
