@@ -198,6 +198,12 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 3. After the download, input `andriod` into Terminal to open the Andriod SDK
 4. Refer to the [Facebook Docs](http://facebook.github.io/react-native/docs/getting-started.html) to determine the SDK Packages to install
 
+
+### Install Maven (for Java Web Development)
+1. Open Terminal and run `brew install maven` (uses Homebrew)
+2. Run `mvn -v` to ensure the download was complete
+
+
 ### Install Xcode (for iOS App Development)
 1. Install through the Mac App Store
 
