@@ -21,7 +21,6 @@ Applications are deployed to Heroku.
 0. Run `chflags nohidden ~/Library/` in Terminal
 
 
-
 ### ssh
 0. Open Terminal
 1. Check for any existing SSH keys with `ls -la ~/.ssh`
@@ -187,12 +186,14 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 7. Fire up the Andriod Emulator with `andriod avd` in Terminal.
 
+
 ### Install Android File Transfer
 1. Navigate to [https://www.android.com/filetransfer/](https://www.android.com/filetransfer/)
 2. Follow download instructions
 3. Use this to copy apps to your device directly
 
-### Install Java Development Kit
+
+### Install Java Development Kit (JDK)
 1. Navigate to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) and download the OSX version
 2. Then open Terminal and input `brew install android-sdk` (uses Homebrew)
 3. After the download, input `andriod` into Terminal to open the Andriod SDK
@@ -202,6 +203,12 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 ### Install Maven (for Java Web Development)
 1. Open Terminal and run `brew install maven` (uses Homebrew)
 2. Run `mvn -v` to ensure the download was complete
+
+
+### Install IntelliJ (for Java Web Development)
+1. Navigate to [Jetbrains IDEA](https://www.jetbrains.com/idea/#chooseYourEdition) to download the community edition.
+2. Leave the default setting during installation.
+3. Opening IntelliJ for the first time, you may need to point the Project SDK to your previously downloaded Java 8 JDK. Using the folder selector, your JDK should be located at /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
 
 
 ### Install Xcode (for iOS App Development)
