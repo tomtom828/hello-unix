@@ -132,7 +132,8 @@ Note that [Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) should
 2. Click to download (no purchase needed)
 3. Install the brogrammer syntax highlighting package. In the menu bar click Sublime Text > Preferences > Package Control > Install Package
 4. Also install HandlebarsJS and Babel syntax highlighting using the package installer from Step 4
-5. Set up other preferences. In the Menu Bar, click Sublime Text > Preferences > Settings. Then, adjust the following properties:
+5. Add the `subl` command to your path using the directions in [this repo](https://stackoverflow.com/questions/16199581/open-sublime-text-from-terminal-in-macos).
+6. Set up other preferences. In the Menu Bar, click Sublime Text > Preferences > Settings. Then, adjust the following properties:
 
 ```
 {
