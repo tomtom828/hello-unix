@@ -228,3 +228,13 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 1. Navigate to [https://serverpress.com](https://serverpress.com)
 2. Click on the Free Download
 
+
+### Install dotnet (for .NET Development)
+1. Open Terminal and run `brew cask install dotnet` (uses Homebrew)
+2. Run `dotnet --version` to ensure the download was complete
+3. You may also need to install the dotnet SDK from (here)[https://www.microsoft.com/net/core#macos]
+4. Once the SDK is installed, you can try step 2 again.
+
+
+### Install Visual Studio IDE (for .NET Development)
+1. Visit [https://www.visualstudio.com/](https://www.visualstudio.com/) for the download
