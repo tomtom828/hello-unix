@@ -236,5 +236,6 @@ export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 4. Once the SDK is installed, you can try step 2 again.
 
 
-### Install Visual Studio IDE (for .NET Development)
+### Install Visual Studio Code (for .NET Development)
 1. Visit [https://www.visualstudio.com/](https://www.visualstudio.com/) for the download
+2. Install the C# extension for Visual Studio Code (done within Visual Studio Code extensions)
